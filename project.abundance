@@ -596,57 +596,6 @@
       "unitsKey": "Inches",
       "fileTypeVersion": 1,
       "lastReloadedFromGithubAt": 1784450848987
-    },
-    {
-      "atomType": "Gcode",
-      "x": 0.44375,
-      "y": 0.14184397163120568,
-      "uniqueID": "id-543",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Tool Size",
-          "ioValue": 6.35
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1000
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "CTB_-_Entrance_Wall_-_Colorado_Top_Beehive_12mm_Board",
-          "currentEquation": "CTB_-_Entrance_Wall_-_Colorado_Top_Beehive_12mm_Board"
-        }
-      ],
-      "partName": "CTB_-_Entrance_Wall_-_Colorado_Top_Beehive_12mm_Board",
-      "sortDirection": "Left"
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.3494791666666667,
-      "y": 0.15130023640661938,
-      "uniqueID": "id-550",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 13
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -654,11 +603,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-88",
       "ap2ID": "id-220"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-88",
-      "ap2ID": "id-550"
     },
     {
       "ap2Name": "retain",
@@ -684,11 +628,6 @@
       "ap2Name": "remove",
       "ap1ID": "id-113",
       "ap2ID": "id-97"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-550",
-      "ap2ID": "id-543"
     }
   ],
   "unitsKey": "MM",
